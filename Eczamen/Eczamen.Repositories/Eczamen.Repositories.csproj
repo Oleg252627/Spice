@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eczamen.Abstractions\Eczamen.Abstractions.csproj" />
+    <ProjectReference Include="..\Eczamen.AppContext\Eczamen.AppContext.csproj" />
+    <ProjectReference Include="..\Eczamen.Entitie\Eczamen.Entitie.csproj" />
+    <ProjectReference Include="..\Eczamen.Models\Eczamen.Models.csproj" />
+  </ItemGroup>
+
+</Project>

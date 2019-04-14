@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Eczamen.Entitie.SubCategory>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="border backgroundWhite">
+    <div class="row">
+        <div class="col-6">
+            <h2 class="text-info"> Sub Category List</h2>
+        </div>
+        <div class="col-6 text-right">
+            <partial name="_CreateButtonPartial" />
+        </div>
+    </div>
+    <br />
+    <div>
+        @if (Model.Count() > 0)
+        {
+            <table class="table table-striped border">
+                <thead>
+                    <tr class="table-secondary">
+                        <th>
+                            @Html.DisplayNameFor(model => model.NameSubCategory)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.Category.NameCategory)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NameSubCategory)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Category.NameCategory)
+                            </td>
+                            <partial name="_TableButtonPartial" model="@item.Id" />
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No sub category exists...</p>
+        }
+    </div>
+
+</div>

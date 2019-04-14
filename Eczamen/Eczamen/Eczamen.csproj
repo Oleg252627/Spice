@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-Eczamen-C704F7D8-C64A-4185-9B99-B41FFE97C58A</UserSecretsId>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190412063648_AddMenuItemToDatabase.cs" />
+    <Compile Remove="Migrations\20190412063648_AddMenuItemToDatabase.Designer.cs" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eczamen.Abstractions\Eczamen.Abstractions.csproj" />
+    <ProjectReference Include="..\Eczamen.AppContext\Eczamen.AppContext.csproj" />
+    <ProjectReference Include="..\Eczamen.Models\Eczamen.Models.csproj" />
+    <ProjectReference Include="..\Eczamen.Repositories\Eczamen.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
