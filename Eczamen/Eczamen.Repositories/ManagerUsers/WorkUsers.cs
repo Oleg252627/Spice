@@ -13,41 +13,53 @@ namespace Eczamen.Repositories.ManagerUsers
 {
     public class WorkUsers: IWorkUsersContext
     {
-        public async Task<List<ApplicationUser>> GetAllUsers(AppDbContext db, Claim claim)
+        private readonly AppDbContext _db;
+
+        public WorkUsers(AppDbContext db)
         {
-            return await db.Users.Where(x => x.Id != claim.Value).ToListAsync();
+            _db = db;
         }
 
-        public async Task<bool> LockUser(AppDbContext db, string id)
+        public async Task<List<ApplicationUser>> GetAllUsers(Claim claim)
+        {
+            return await _db.Users.Where(x => x.Id != claim.Value).ToListAsync();
+        }
+
+        public async Task<bool> LockUser(string id)
         {
             if (id == null)
             {
                 return false;
             }
 
-            var applicationUser = await db.Users.FirstOrDefaultAsync(z => z.Id == id);
+            var applicationUser = await _db.Users.FirstOrDefaultAsync(z => z.Id == id);
             if (applicationUser == null)
             {
                 return false;
             }
             applicationUser.LockoutEnd = DateTime.Now.AddYears(1000);
-            return await db.SaveChangesAsync() > 0;
+            return await _db.SaveChangesAsync() > 0;
         }
 
-        public async Task<bool> UnLockUser(AppDbContext db, string id)
+        public async Task<bool> UnLockUser(string id)
         {
             if (id == null)
             {
                 return false;
             }
 
-            var applicationUser = await db.Users.FirstOrDefaultAsync(z => z.Id == id);
+            var applicationUser = await _db.Users.FirstOrDefaultAsync(z => z.Id == id);
             if (applicationUser == null)
             {
                 return false;
             }
             applicationUser.LockoutEnd = DateTime.Now;
-            return await db.SaveChangesAsync() > 0;
+            return await _db.SaveChangesAsync() > 0;
+        }
+
+        public async Task<ApplicationUser> GetUserOnTheSite(string email)
+        {
+            return await _db.Users.Where(z => z.Email == email).FirstOrDefaultAsync();
         }
     }
 }

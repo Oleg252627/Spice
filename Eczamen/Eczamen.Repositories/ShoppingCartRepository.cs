@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using Eczamen.AppContext;
@@ -35,6 +37,32 @@ namespace Eczamen.Repositories
                 MenuItemId = menuItem.Id
             };
             return shoppingCart;
+        }
+
+        public async Task<bool> DetailsShoppingCartPost(ShoppingCart cart, Claim claim)
+        {
+            cart.Id = 0;
+            cart.ApplicationUserId = claim.Value;
+            var carts = await AllItems.Where(z => z.MenuItemId == cart.MenuItemId && z.ApplicationUserId == cart.ApplicationUserId).FirstOrDefaultAsync();
+            if (carts == null)
+            {
+                return await AddItemAsync(cart);
+            }
+            else
+            {
+                carts.Count = carts.Count + cart.Count;
+                return await UpdateItem(carts);
+            }
+        }
+
+        public async Task<int> CountShoppingCart(string id)
+        {
+            return AllItems.Where(z => z.ApplicationUserId == id).ToList().Count();
+        }
+
+        public async Task<List<ShoppingCart>> GetShoppingCartFoUser(string id)
+        {
+            return await AllItems.Where(z => z.ApplicationUserId == id).ToListAsync();
         }
     }
 }

@@ -10,8 +10,9 @@ namespace Eczamen.Repositories.ManagerUsers.interfaces
 {
     public interface IWorkUsersContext
     {
-        Task<List<ApplicationUser>> GetAllUsers(AppDbContext db, Claim claim);
-        Task<bool> LockUser(AppDbContext db, string id);
-        Task<bool> UnLockUser(AppDbContext db, string id);
+        Task<List<ApplicationUser>> GetAllUsers(Claim claim);
+        Task<bool> LockUser(string id);
+        Task<bool> UnLockUser(string id);
+        Task<ApplicationUser> GetUserOnTheSite(string email);
     }
 }

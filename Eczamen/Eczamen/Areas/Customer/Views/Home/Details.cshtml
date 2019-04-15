@@ -9,7 +9,7 @@
 <br />
 <h2 class="text-info">Item Details</h2>
 <br />
-<form method="post" asp-action="Create">
+<form method="post" asp-action="Details">
     <div class="border backgroundWhite row">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="col-12 pb-4 d-md-none">
@@ -93,7 +93,3 @@
     </div>
     <input asp-for="MenuItemId" hidden />
 </form>
-@section Scripts{
-
-    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}

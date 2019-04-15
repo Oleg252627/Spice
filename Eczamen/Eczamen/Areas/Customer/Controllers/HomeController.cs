@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Net;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Eczamen.Entitie;
 using Microsoft.AspNetCore.Mvc;
 using Eczamen.Models;
+using Eczamen.Models.Utility;
 using Eczamen.Repositories.HomView.interfacesHome;
 using Eczamen.Repositories.interfaces;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 
 namespace Eczamen.Controllers
 {
@@ -37,7 +40,20 @@ namespace Eczamen.Controllers
 
         public async Task<IActionResult> Index()
         {
-            return View(await iHomeIndex.GetModelIndex(iCategoryRepository, iCouponRepository, iMenuItemRepository));
+            IndexViewModel index =
+                await iHomeIndex.GetModelIndex(iCategoryRepository, iCouponRepository, iMenuItemRepository);
+            var claim = GetClaim();
+            if (claim != null)
+            {
+               AddSession(claim);
+            }
+               
+            return View(index);
+        }
+
+        private async void AddSession(Claim claim)
+        {
+            HttpContext.Session.SetInt32(SD.ssShoppingCartCount,await iShoppingCartRepository.CountShoppingCart(claim.Value));
         }
 
         public IActionResult Privacy()
@@ -61,6 +77,32 @@ namespace Eczamen.Controllers
             }
 
             return View(shoppingCart);
+        }
+
+        [Authorize]
+        [HttpPost]
+        [AutoValidateAntiforgeryToken]
+        public async Task<IActionResult> Details(ShoppingCart cart)
+        {
+            if (ModelState.IsValid)
+            {
+                var claim = GetClaim();
+                if (!await iShoppingCartRepository.DetailsShoppingCartPost(cart, claim))
+                {
+                    return NotFound();
+                }
+                
+                AddSession(claim);
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(await iShoppingCartRepository.DetailsShoppingCartGet(cart.MenuItemId, iMenuItemRepository));
+        }
+
+        private Claim GetClaim()
+        {
+            var claimsIdentity = (ClaimsIdentity)User.Identity;
+           return claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
         }
     }
 }

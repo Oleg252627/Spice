@@ -3,8 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using Eczamen.AppContext;
+using Eczamen.Models.Utility;
+using Eczamen.Repositories.interfaces;
+using Eczamen.Repositories.ManagerUsers.interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -17,11 +22,15 @@ namespace Eczamen.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
+        private readonly IWorkUsersContext _iContext;
+        private readonly IShoppingCartRepository _iShoppingCartRepository;
 
-        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger)
+        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger, IWorkUsersContext iContext, IShoppingCartRepository iShoppingCartRepository)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _iContext = iContext;
+            _iShoppingCartRepository = iShoppingCartRepository;
         }
 
         [BindProperty]
@@ -76,6 +85,9 @@ namespace Eczamen.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: true);
                 if (result.Succeeded)
                 {
+                    var user = await _iContext.GetUserOnTheSite(Input.Email);
+                    var shoppingCart = await _iShoppingCartRepository.GetShoppingCartFoUser(user.Id);
+                    HttpContext.Session.SetInt32(SD.ssShoppingCartCount, shoppingCart.Count);
                     _logger.LogInformation("User logged in.");
                     return LocalRedirect(returnUrl);
                 }
