@@ -21,5 +21,7 @@ namespace Eczamen.AppContext
         public DbSet<Coupon> Coupons { get; set; }
         public DbSet<ApplicationUser> Users { get; set; }
         public DbSet<ShoppingCart> Carts { get; set; }
+        public DbSet<OrderHeader> OrderHeaders { get; set; }
+        public DbSet<OrderDetails> OrderDetails { get; set; }
     }
 }

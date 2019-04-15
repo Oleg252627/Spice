@@ -72,6 +72,8 @@ namespace Eczamen
             services.AddTransient<IHomeIndex, HomeIndex>();
             services.AddTransient<IWorkUsersContext, WorkUsers>();
             services.AddTransient<IShoppingCartRepository, ShoppingCartRepository>();
+            services.AddTransient<IOrderHeaderRepository, OrderHeaderRepository>();
+            services.AddTransient<IOrderDetailsRepository, OrderDetailsRepository>();
 
 
             //string dbConnectionString = Configuration.GetConnectionString("DefaultConnection");
@@ -115,7 +117,7 @@ namespace Eczamen
            // app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
-            app.UseSession();
+            app.UseSession();   //добавление сессии
             app.UseAuthentication();
 
             app.UseMvc(routes =>

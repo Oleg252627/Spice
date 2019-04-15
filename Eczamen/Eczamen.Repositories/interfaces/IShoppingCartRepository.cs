@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Eczamen.Abstractions;
 using Eczamen.Entitie;
+using Eczamen.Models;
 
 namespace Eczamen.Repositories.interfaces
 {
@@ -14,5 +15,6 @@ namespace Eczamen.Repositories.interfaces
         Task<bool> DetailsShoppingCartPost(ShoppingCart cart, Claim claim);
         Task<int> CountShoppingCart(string id);
         Task<List<ShoppingCart>> GetShoppingCartFoUser(string id);
+        Task<OrderDetailsCart> GetOrderDetailsCart(Claim claim, IMenuItemRepository menuItem);
     }
 }

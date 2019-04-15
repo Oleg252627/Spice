@@ -142,7 +142,7 @@ namespace Eczamen.Areas.Identity.Pages.Account
 
                     return RedirectToAction("Index", "Users", new {area = "Admin"});
 
-                    //await _userManager.AddToRoleAsync(user, SD.ManagerUser);
+                   // await _userManager.AddToRoleAsync(user, SD.ManagerUser);
 
                     _logger.LogInformation("User created a new account with password.");
 

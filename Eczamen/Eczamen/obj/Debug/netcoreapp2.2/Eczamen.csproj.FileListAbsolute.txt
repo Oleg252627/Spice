@@ -217,3 +217,4 @@ E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Eczamen.csproj.CopyComplete
 E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Eczamen.dll
 E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Eczamen.pdb
 E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Razor\Areas\Customer\Views\Home\Details.g.cshtml.cs
+E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Razor\Areas\Customer\Views\Cart\Index.g.cshtml.cs

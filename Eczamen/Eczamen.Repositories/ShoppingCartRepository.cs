@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Eczamen.AppContext;
 using Eczamen.Entitie;
+using Eczamen.Models;
+using Eczamen.Models.Utility;
 using Eczamen.Repositories.Generic;
 using Eczamen.Repositories.interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -63,6 +65,31 @@ namespace Eczamen.Repositories
         public async Task<List<ShoppingCart>> GetShoppingCartFoUser(string id)
         {
             return await AllItems.Where(z => z.ApplicationUserId == id).ToListAsync();
+        }
+
+        public async Task<OrderDetailsCart> GetOrderDetailsCart(Claim claim, IMenuItemRepository menuItem)
+        {
+            OrderDetailsCart order = new OrderDetailsCart
+            {
+                OrderHeader = new OrderHeader(),
+                ShoppingCarts = await GetShoppingCartFoUser(claim.Value)
+            };
+            order.OrderHeader.OrderTotal = 0;
+            foreach (var VARIABLE in order.ShoppingCarts)
+            {
+                VARIABLE.MenuItem = await menuItem.GetItemAsync(VARIABLE.MenuItemId);
+                order.OrderHeader.OrderTotal =
+                    order.OrderHeader.OrderTotal + (VARIABLE.MenuItem.Price * VARIABLE.Count);
+                VARIABLE.MenuItem.Description = SD.ConvertToRawHtml(VARIABLE.MenuItem.Description);
+                if (VARIABLE.MenuItem.Description.Length > 100)
+                {
+                    VARIABLE.MenuItem.Description = VARIABLE.MenuItem.Description.Substring(0, 99) + "...";
+                }
+            }
+
+            order.OrderHeader.OrderTotalOriginal = order.OrderHeader.OrderTotal;
+            
+            return order;
         }
     }
 }
