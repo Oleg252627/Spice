@@ -1,0 +1,68 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "E:\\git\\Spice\\Eczamen\\Eczamen.Repositories\\Eczamen.Repositories.csproj",
+    "projectName": "Eczamen.Repositories",
+    "projectPath": "E:\\git\\Spice\\Eczamen\\Eczamen.Repositories\\Eczamen.Repositories.csproj",
+    "outputPath": "E:\\git\\Spice\\Eczamen\\Eczamen.Repositories\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "E:\\git\\Spice\\Eczamen\\Eczamen.Abstractions\\Eczamen.Abstractions.csproj": {
+            "projectPath": "E:\\git\\Spice\\Eczamen\\Eczamen.Abstractions\\Eczamen.Abstractions.csproj"
+          },
+          "E:\\git\\Spice\\Eczamen\\Eczamen.AppContext\\Eczamen.AppContext.csproj": {
+            "projectPath": "E:\\git\\Spice\\Eczamen\\Eczamen.AppContext\\Eczamen.AppContext.csproj"
+          },
+          "E:\\git\\Spice\\Eczamen\\Eczamen.Entitie\\Eczamen.Entitie.csproj": {
+            "projectPath": "E:\\git\\Spice\\Eczamen\\Eczamen.Entitie\\Eczamen.Entitie.csproj"
+          },
+          "E:\\git\\Spice\\Eczamen\\Eczamen.Models\\Eczamen.Models.csproj": {
+            "projectPath": "E:\\git\\Spice\\Eczamen\\Eczamen.Models\\Eczamen.Models.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

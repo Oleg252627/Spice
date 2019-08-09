@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Oleg\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Oleg\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Eczamen.-2038290719.00" t="ExcludeRecursive" />
+    <e p="E:\git\Spice\Eczamen" t="IncludeFlat">
+      <e p="Domain" t="Include" />
+      <e p="Eczamen" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Areas" t="Include">
+          <e p="Admin" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="CategoryController.cs" t="Include" />
+              <e p="CouponController.cs" t="Include" />
+              <e p="MenuItemController.cs" t="Include" />
+              <e p="SubCategoryController.cs" t="Include" />
+              <e p="UsersController.cs" t="Include" />
+            </e>
+            <e p="Views" t="Include">
+              <e p="_ViewImports.cshtml" t="Include" />
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Category" t="Include">
+                <e p="Create.cshtml" t="Include" />
+                <e p="Delete.cshtml" t="Include" />
+                <e p="Details.cshtml" t="Include" />
+                <e p="Edit.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+              </e>
+              <e p="Coupon" t="Include">
+                <e p="Create.cshtml" t="Include" />
+                <e p="Delete.cshtml" t="Include" />
+                <e p="Details.cshtml" t="Include" />
+                <e p="Edit.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+              </e>
+              <e p="MenuItem" t="Include">
+                <e p="Create.cshtml" t="Include" />
+                <e p="Delete.cshtml" t="Include" />
+                <e p="Details.cshtml" t="Include" />
+                <e p="Edit.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+              </e>
+              <e p="SubCategory" t="Include">
+                <e p="Create.cshtml" t="Include" />
+                <e p="Delete.cshtml" t="Include" />
+                <e p="Details.cshtml" t="Include" />
+                <e p="Edit.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+              </e>
+              <e p="Users" t="Include">
+                <e p="Index.cshtml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Customer" t="Include">
+            <e p="Controllers" t="Include">
+              <e p="CartController.cs" t="Include" />
+              <e p="HomeController.cs" t="Include" />
+            </e>
+            <e p="Views" t="Include">
+              <e p="_ViewImports.cshtml" t="Include" />
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Cart" t="Include">
+                <e p="Index.cshtml" t="Include" />
+              </e>
+              <e p="Home" t="Include">
+                <e p="Details.cshtml" t="Include" />
+                <e p="Index.cshtml" t="Include" />
+                <e p="Privacy.cshtml" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Identity" t="Include">
+            <e p="IdentityHostingStartup.cs" t="Include" />
+            <e p="Pages" t="Include">
+              <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+              <e p="_ViewImports.cshtml" t="Include" />
+              <e p="_ViewStart.cshtml" t="Include" />
+              <e p="Account" t="Include">
+                <e p="_ViewImports.cshtml" t="Include" />
+                <e p="AccessDenied.cshtml" t="Include" />
+                <e p="AccessDenied.cshtml.cs" t="Include" />
+                <e p="ConfirmEmail.cshtml" t="Include" />
+                <e p="ConfirmEmail.cshtml.cs" t="Include" />
+                <e p="ExternalLogin.cshtml" t="Include" />
+                <e p="ExternalLogin.cshtml.cs" t="Include" />
+                <e p="ForgotPassword.cshtml" t="Include" />
+                <e p="ForgotPassword.cshtml.cs" t="Include" />
+                <e p="ForgotPasswordConfirmation.cshtml" t="Include" />
+                <e p="ForgotPasswordConfirmation.cshtml.cs" t="Include" />
+                <e p="Lockout.cshtml" t="Include" />
+                <e p="Lockout.cshtml.cs" t="Include" />
+                <e p="Login.cshtml" t="Include" />
+                <e p="Login.cshtml.cs" t="Include" />
+                <e p="LoginWith2fa.cshtml" t="Include" />
+                <e p="LoginWith2fa.cshtml.cs" t="Include" />
+                <e p="LoginWithRecoveryCode.cshtml" t="Include" />
+                <e p="LoginWithRecoveryCode.cshtml.cs" t="Include" />
+                <e p="Logout.cshtml" t="Include" />
+                <e p="Logout.cshtml.cs" t="Include" />
+                <e p="Manage" t="Include">
+                  <e p="_ManageNav.cshtml" t="Include" />
+                  <e p="_StatusMessage.cshtml" t="Include" />
+                  <e p="_ViewImports.cshtml" t="Include" />
+                  <e p="ChangePassword.cshtml" t="Include" />
+                  <e p="ChangePassword.cshtml.cs" t="Include" />
+                  <e p="DeletePersonalData.cshtml" t="Include" />
+                  <e p="DeletePersonalData.cshtml.cs" t="Include" />
+                  <e p="Disable2fa.cshtml" t="Include" />
+                  <e p="Disable2fa.cshtml.cs" t="Include" />
+                  <e p="DownloadPersonalData.cshtml" t="Include" />
+                  <e p="DownloadPersonalData.cshtml.cs" t="Include" />
+                  <e p="EnableAuthenticator.cshtml" t="Include" />
+                  <e p="EnableAuthenticator.cshtml.cs" t="Include" />
+                  <e p="ExternalLogins.cshtml" t="Include" />
+                  <e p="ExternalLogins.cshtml.cs" t="Include" />
+                  <e p="GenerateRecoveryCodes.cshtml" t="Include" />
+                  <e p="GenerateRecoveryCodes.cshtml.cs" t="Include" />
+                  <e p="Index.cshtml" t="Include" />
+                  <e p="Index.cshtml.cs" t="Include" />
+                  <e p="ManageNavPages.cs" t="Include" />
+                  <e p="PersonalData.cshtml" t="Include" />
+                  <e p="PersonalData.cshtml.cs" t="Include" />
+                  <e p="ResetAuthenticator.cshtml" t="Include" />
+                  <e p="ResetAuthenticator.cshtml.cs" t="Include" />
+                  <e p="SetPassword.cshtml" t="Include" />
+                  <e p="SetPassword.cshtml.cs" t="Include" />
+                  <e p="TwoFactorAuthentication.cshtml" t="Include" />
+                  <e p="TwoFactorAuthentication.cshtml.cs" t="Include" />
+                </e>
+                <e p="Register.cshtml" t="Include" />
+                <e p="Register.cshtml.cs" t="Include" />
+                <e p="ResetPassword.cshtml" t="Include" />
+                <e p="ResetPassword.cshtml.cs" t="Include" />
+                <e p="ResetPasswordConfirmation.cshtml" t="Include" />
+                <e p="ResetPasswordConfirmation.cshtml.cs" t="Include" />
+              </e>
+              <e p="Error.cshtml" t="Include" />
+              <e p="Error.cshtml.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Data" t="Include">
+          <e p="ApplicationDbContext.cs" t="Include" />
+          <e p="Migrations" t="Include">
+            <e p="00000000000000_CreateIdentitySchema.cs" t="Include" />
+            <e p="00000000000000_CreateIdentitySchema.Designer.cs" t="Include" />
+            <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Eczamen.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20190409201558_AddCategoryDatabase.cs" t="Include" />
+          <e p="20190409201558_AddCategoryDatabase.Designer.cs" t="Include" />
+          <e p="20190411060323_addSubCategoryToDatabase.cs" t="Include" />
+          <e p="20190411060323_addSubCategoryToDatabase.Designer.cs" t="Include" />
+          <e p="20190412065225_AddMenuItemToDatabase.cs" t="Include" />
+          <e p="20190412065225_AddMenuItemToDatabase.Designer.cs" t="Include" />
+          <e p="20190413045314_AddCouponToDatabase.cs" t="Include" />
+          <e p="20190413045314_AddCouponToDatabase.Designer.cs" t="Include" />
+          <e p="20190413142254_AddIdentityTableUserToDatabase.cs" t="Include" />
+          <e p="20190413142254_AddIdentityTableUserToDatabase.Designer.cs" t="Include" />
+          <e p="20190414151052_AddShopingCartToDatabase.cs" t="Include" />
+          <e p="20190414151052_AddShopingCartToDatabase.Designer.cs" t="Include" />
+          <e p="20190415084833_AddOrderHeaderAndDetailsToDatabase.cs" t="Include" />
+          <e p="20190415084833_AddOrderHeaderAndDetailsToDatabase.Designer.cs" t="Include" />
+          <e p="AppDbContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="ErrorViewModel.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Eczamen.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="ScaffoldingReadMe.txt" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Shared" t="Include">
+            <e p="_BacToEditButtonPartial.cshtml" t="Include" />
+            <e p="_BacToListButtonPartial.cshtml" t="Include" />
+            <e p="_CookieConsentPartial.cshtml" t="Include" />
+            <e p="_CreateButtonPartial.cshtml" t="Include" />
+            <e p="_CreateButtonPostPartial.cshtml" t="Include" />
+            <e p="_DeleteButtonPartial.cshtml" t="Include" />
+            <e p="_EditButtonPartial.cshtml" t="Include" />
+            <e p="_Layout.cshtml" t="Include" />
+            <e p="_LoginPartial.cshtml" t="Include" />
+            <e p="_StatusMessage.cshtml" t="Include" />
+            <e p="_TableButtonPartial.cshtml" t="Include" />
+            <e p="_ThumbnailAreaPartial.cshtml" t="Include" />
+            <e p="_ValidationScriptsPartial.cshtml" t="Include" />
+            <e p="Error.cshtml" t="Include" />
+          </e>
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="css" t="Include">
+            <e p="site.css" t="Include" />
+          </e>
+          <e p="favicon.ico" t="Include" />
+          <e p="images" t="Include">
+            <e p="10.jpg" t="Include" />
+            <e p="12.jpg" t="Include" />
+            <e p="14.jpg" t="Include" />
+            <e p="15.jpg" t="Include" />
+            <e p="15OFF.png" t="Include" />
+            <e p="16.png" t="Include" />
+            <e p="17.jpg" t="Include" />
+            <e p="20OFF.png" t="Include" />
+            <e p="7.jpg" t="Include" />
+            <e p="8.jpg" t="Include" />
+            <e p="9.jpg" t="Include" />
+            <e p="defaultfood.png" t="Include" />
+            <e p="dust_scratches.png" t="Include" />
+            <e p="mild.png" t="Include" />
+            <e p="spicy.png" t="Include" />
+            <e p="veryspicy.png" t="Include" />
+          </e>
+          <e p="js" t="Include">
+            <e p="site.js" t="Include" />
+          </e>
+          <e p="lib" t="Include">
+            <e p="bootstrap" t="Include">
+              <e p="dist" t="Include">
+                <e p="css" t="Include">
+                  <e p="bootstrap-grid.css" t="Include" />
+                  <e p="bootstrap-grid.css.map" t="Include" />
+                  <e p="bootstrap-grid.min.css" t="Include" />
+                  <e p="bootstrap-grid.min.css.map" t="Include" />
+                  <e p="bootstrap-reboot.css" t="Include" />
+                  <e p="bootstrap-reboot.css.map" t="Include" />
+                  <e p="bootstrap-reboot.min.css" t="Include" />
+                  <e p="bootstrap-reboot.min.css.map" t="Include" />
+                  <e p="bootstrap.css" t="Include" />
+                  <e p="bootstrap.css.map" t="Include" />
+                  <e p="bootstrap.min.css" t="Include" />
+                  <e p="bootstrap.min.css.map" t="Include" />
+                </e>
+                <e p="js" t="Include">
+                  <e p="bootstrap.bundle.js" t="Include" />
+                  <e p="bootstrap.bundle.js.map" t="Include" />
+                  <e p="bootstrap.bundle.min.js" t="Include" />
+                  <e p="bootstrap.bundle.min.js.map" t="Include" />
+                  <e p="bootstrap.js" t="Include" />
+                  <e p="bootstrap.js.map" t="Include" />
+                  <e p="bootstrap.min.js" t="Include" />
+                  <e p="bootstrap.min.js.map" t="Include" />
+                </e>
+              </e>
+              <e p="LICENSE" t="Include" />
+            </e>
+            <e p="jquery" t="Include">
+              <e p="dist" t="Include">
+                <e p="jquery.js" t="Include" />
+                <e p="jquery.min.js" t="Include" />
+                <e p="jquery.min.map" t="Include" />
+              </e>
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+            <e p="jquery-validation" t="Include">
+              <e p="dist" t="Include">
+                <e p="additional-methods.js" t="Include" />
+                <e p="additional-methods.min.js" t="Include" />
+                <e p="jquery.validate.js" t="Include" />
+                <e p="jquery.validate.min.js" t="Include" />
+              </e>
+              <e p="LICENSE.md" t="Include" />
+            </e>
+            <e p="jquery-validation-unobtrusive" t="Include">
+              <e p="jquery.validate.unobtrusive.js" t="Include" />
+              <e p="jquery.validate.unobtrusive.min.js" t="Include" />
+              <e p="LICENSE.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Eczamen.Abstractions" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DbEntity.cs" t="Include" />
+        <e p="Eczamen.Abstractions.csproj" t="IncludeRecursive" />
+        <e p="IDbEntity.cs" t="Include" />
+        <e p="IDbRepository.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Eczamen.Abstractions.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Eczamen.AppContext" t="IncludeRecursive">
+        <e p="AppDbContext.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Eczamen.AppContext.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Eczamen.AppContext.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Eczamen.Entitie" t="IncludeRecursive">
+        <e p="AplicUser" t="Include">
+          <e p="ApplicationUser.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Category.cs" t="Include" />
+        <e p="Coupon.cs" t="Include" />
+        <e p="Eczamen.Entitie.csproj" t="IncludeRecursive" />
+        <e p="MenuItem.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Eczamen.Entitie.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OrderDetails.cs" t="Include" />
+        <e p="OrderHeader.cs" t="Include" />
+        <e p="ShoppingCart.cs" t="Include" />
+        <e p="SubCategory.cs" t="Include" />
+      </e>
+      <e p="Eczamen.Models" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CategoryModel.cs" t="Include" />
+        <e p="Eczamen.Models.csproj" t="IncludeRecursive" />
+        <e p="Extension" t="Include">
+          <e p="IEnumerableExtension.cs" t="Include" />
+          <e p="ReflectionExtension.cs" t="Include" />
+        </e>
+        <e p="IndexViewModel.cs" t="Include" />
+        <e p="MenuItemModel.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Eczamen.Models.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OrderDetailsCart.cs" t="Include" />
+        <e p="SubCategoryAndCategoryModel.cs" t="Include" />
+        <e p="SubCategoryModel.cs" t="Include" />
+        <e p="Utility" t="Include">
+          <e p="SD.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Eczamen.Repositories" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CategoryRepository.cs" t="Include" />
+        <e p="CouponRepository.cs" t="Include" />
+        <e p="Eczamen.Repositories.csproj" t="IncludeRecursive" />
+        <e p="Generic" t="Include">
+          <e p="DbRepository.cs" t="Include" />
+        </e>
+        <e p="HomView" t="Include">
+          <e p="HomeIndex.cs" t="Include" />
+          <e p="interfacesHome" t="Include">
+            <e p="IHomeIndex.cs" t="Include" />
+          </e>
+        </e>
+        <e p="interfaces" t="Include">
+          <e p="ICategoryRepository.cs" t="Include" />
+          <e p="ICouponRepository.cs" t="Include" />
+          <e p="IMenuItemRepository.cs" t="Include" />
+          <e p="IOrderDetailsRepository.cs" t="Include" />
+          <e p="IOrderHeaderRepository.cs" t="Include" />
+          <e p="IShoppingCartRepository.cs" t="Include" />
+          <e p="ISubCategoryRepositiry.cs" t="Include" />
+        </e>
+        <e p="ManagerUsers" t="Include">
+          <e p="interfaces" t="Include">
+            <e p="IWorkUsersContext.cs" t="Include" />
+          </e>
+          <e p="WorkUsers.cs" t="Include" />
+        </e>
+        <e p="MenuItemRepository.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Eczamen.Repositories.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OrderDetailsRepository.cs" t="Include" />
+        <e p="OrderHeaderRepository.cs" t="Include" />
+        <e p="ShoppingCartRepository.cs" t="Include" />
+        <e p="SubCategoryRepository.cs" t="Include" />
+      </e>
+      <e p="Eczamen.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

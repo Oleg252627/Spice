@@ -99,3 +99,18 @@
     }
 </form>
 
+@section Scripts
+{
+    <script>
+    $( function() {
+      let couponCode = document.getElementById('txtCouponCode').value;
+      if (couponCode.length > 0) {
+        document.getElementById('btnCoupon').style.display = 'none';
+        document.getElementById('btnRemoveCoupon').style.display = '';
+      } else {
+        document.getElementById('btnCoupon').style.display = '';
+        document.getElementById('btnRemoveCoupon').style.display = 'none';
+      }                      
+    });
+    </script>
+}

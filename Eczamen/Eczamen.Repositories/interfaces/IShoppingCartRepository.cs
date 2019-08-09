@@ -15,6 +15,11 @@ namespace Eczamen.Repositories.interfaces
         Task<bool> DetailsShoppingCartPost(ShoppingCart cart, Claim claim);
         Task<int> CountShoppingCart(string id);
         Task<List<ShoppingCart>> GetShoppingCartFoUser(string id);
-        Task<OrderDetailsCart> GetOrderDetailsCart(Claim claim, IMenuItemRepository menuItem);
+        Task<OrderDetailsCart> GetOrderDetailsCart(Claim claim, IMenuItemRepository menuItem, string code,
+            ICouponRepository couponRepository);
+
+        Task<bool> PlusCartRepository(int cartId);
+        Task<bool> MinusCartRepository(int cartId);
+        Task<bool> DeleteCartRepository(int cartId);
     }
 }

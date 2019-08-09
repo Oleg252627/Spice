@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="407f52d6-bc56-4077-9f29-bbf68057ed47" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.vs/Eczamen/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Eczamen/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Eczamen/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Eczamen/v15/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Eczamen/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Eczamen/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Eczamen/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Eczamen/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Abstractions/obj/Debug/netcoreapp2.2/Eczamen.Abstractions.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Abstractions/obj/Debug/netcoreapp2.2/Eczamen.Abstractions.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Abstractions/obj/Debug/netcoreapp2.2/Eczamen.Abstractions.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Abstractions/obj/Debug/netcoreapp2.2/Eczamen.Abstractions.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Abstractions/obj/Debug/netcoreapp2.2/Eczamen.Abstractions.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Abstractions/obj/Debug/netcoreapp2.2/Eczamen.Abstractions.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.AppContext/obj/Debug/netcoreapp2.2/Eczamen.AppContext.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.AppContext/obj/Debug/netcoreapp2.2/Eczamen.AppContext.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.AppContext/obj/Debug/netcoreapp2.2/Eczamen.AppContext.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.AppContext/obj/Debug/netcoreapp2.2/Eczamen.AppContext.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.AppContext/obj/Debug/netcoreapp2.2/Eczamen.AppContext.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.AppContext/obj/Debug/netcoreapp2.2/Eczamen.AppContext.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Entitie/obj/Debug/netcoreapp2.2/Eczamen.Entitie.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Entitie/obj/Debug/netcoreapp2.2/Eczamen.Entitie.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Entitie/obj/Debug/netcoreapp2.2/Eczamen.Entitie.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Entitie/obj/Debug/netcoreapp2.2/Eczamen.Entitie.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Entitie/obj/Debug/netcoreapp2.2/Eczamen.Entitie.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Entitie/obj/Debug/netcoreapp2.2/Eczamen.Entitie.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Models/Utility/SD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Models/Utility/SD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Models/bin/Debug/netcoreapp2.2/Eczamen.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Models/bin/Debug/netcoreapp2.2/Eczamen.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Models/bin/Debug/netcoreapp2.2/Eczamen.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Models/bin/Debug/netcoreapp2.2/Eczamen.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Models/obj/Debug/netcoreapp2.2/Eczamen.Models.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Models/obj/Debug/netcoreapp2.2/Eczamen.Models.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Models/obj/Debug/netcoreapp2.2/Eczamen.Models.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Models/obj/Debug/netcoreapp2.2/Eczamen.Models.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Models/obj/Debug/netcoreapp2.2/Eczamen.Models.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Models/obj/Debug/netcoreapp2.2/Eczamen.Models.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Models/obj/Debug/netcoreapp2.2/Eczamen.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Models/obj/Debug/netcoreapp2.2/Eczamen.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Models/obj/Debug/netcoreapp2.2/Eczamen.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Models/obj/Debug/netcoreapp2.2/Eczamen.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Repositories/ShoppingCartRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Repositories/ShoppingCartRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Repositories/bin/Debug/netcoreapp2.2/Eczamen.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Repositories/bin/Debug/netcoreapp2.2/Eczamen.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Repositories/bin/Debug/netcoreapp2.2/Eczamen.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Repositories/bin/Debug/netcoreapp2.2/Eczamen.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Repositories/bin/Debug/netcoreapp2.2/Eczamen.Repositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Repositories/bin/Debug/netcoreapp2.2/Eczamen.Repositories.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Repositories/bin/Debug/netcoreapp2.2/Eczamen.Repositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Repositories/bin/Debug/netcoreapp2.2/Eczamen.Repositories.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Repositories/interfaces/IShoppingCartRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Repositories/interfaces/IShoppingCartRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Repositories/obj/Debug/netcoreapp2.2/Eczamen.Repositories.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Repositories/obj/Debug/netcoreapp2.2/Eczamen.Repositories.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Repositories/obj/Debug/netcoreapp2.2/Eczamen.Repositories.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Repositories/obj/Debug/netcoreapp2.2/Eczamen.Repositories.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Repositories/obj/Debug/netcoreapp2.2/Eczamen.Repositories.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Repositories/obj/Debug/netcoreapp2.2/Eczamen.Repositories.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Repositories/obj/Debug/netcoreapp2.2/Eczamen.Repositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Repositories/obj/Debug/netcoreapp2.2/Eczamen.Repositories.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen.Repositories/obj/Debug/netcoreapp2.2/Eczamen.Repositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen.Repositories/obj/Debug/netcoreapp2.2/Eczamen.Repositories.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/Areas/Customer/Controllers/CartController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/Areas/Customer/Controllers/CartController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/Areas/Customer/Views/Cart/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/Areas/Customer/Views/Cart/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/Eczamen.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/Eczamen.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.Models.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.Models.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.Models.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.Models.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.Repositories.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.Repositories.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.Repositories.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.Repositories.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/bin/Debug/netcoreapp2.2/Eczamen.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.RazorAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.RazorAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.RazorTargetAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Eczamen.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Razor/Areas/Customer/Views/Cart/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Razor/Areas/Customer/Views/Cart/Index.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eczamen/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/Account/Manage/_Layout.g.cshtml.cs" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eczamen/Areas/Customer/Controllers/CartController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="743">
+              <caret line="105" column="70" lean-forward="true" selection-start-line="105" selection-start-column="70" selection-end-line="105" selection-end-column="70" />
+              <folding>
+                <marker date="1560666841808" expanded="false" signature="6:361" ph="..." />
+                <marker date="1560666841808" expanded="true" signature="407:4392" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="493:4390" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="1200:1514" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="1564:1916" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="1950:2102" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="2144:2476" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="2219:2314" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="2521:2656" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="2715:2927" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="2801:2864" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="2986:3806" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="3134:3530" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="3547:3731" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="3642:3717" ph="{...}" />
+                <marker date="1560666841808" expanded="true" signature="3866:4384" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/interfaces/IShoppingCartRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+              <folding>
+                <marker date="1560666841652" expanded="false" signature="6:199" ph="..." />
+                <marker date="1560666841652" expanded="true" signature="242:937" ph="{...}" />
+                <marker date="1560666841652" expanded="true" signature="318:935" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/ShoppingCartRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="114" column="48" lean-forward="true" selection-start-line="114" selection-start-column="48" selection-end-line="114" selection-end-column="48" />
+              <folding>
+                <marker date="1560666841739" expanded="true" signature="6:381" ph="..." />
+                <marker date="1560666841739" expanded="true" signature="413:4646" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="508:4644" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="590:610" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="724:1292" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="762:819" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="1028:1085" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="1155:1248" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="1381:1888" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="1652:1729" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="1746:1878" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="1949:2053" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="2133:2240" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="2409:3849" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="2490:2627" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="2732:3296" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="3138:3282" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="3408:3813" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="3913:4091" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="4156:4334" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="4400:4638" ph="{...}" />
+                <marker date="1560666841739" expanded="true" signature="4520:4578" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Eczamen/Areas/Customer/Views/Cart/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#button#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+                <marker date="1560664034086" expanded="true" signature="39:122" ph="@..." />
+                <marker date="1560664034086" expanded="true" signature="149:5751" ph="@..." />
+                <marker date="1560664034086" expanded="true" signature="184:5641" ph="{...}" />
+                <marker date="1560664034086" expanded="true" signature="1013:3449" ph="@..." />
+                <marker date="1560664034086" expanded="true" signature="1055:3449" ph="{...}" />
+                <marker date="1560664034086" expanded="true" signature="5650:5751" ph="{...}" />
+                <marker date="1560664034086" expanded="true" signature="5761:6267" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eczamen.AppContext/AppDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+              <folding>
+                <marker date="1555317919823" expanded="false" signature="6:216" ph="..." />
+                <marker date="1555317919823" expanded="true" signature="246:889" ph="{...}" />
+                <marker date="1555317919823" expanded="true" signature="298:887" ph="{...}" />
+                <marker date="1555317919823" expanded="true" signature="400:421" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/Generic/DbRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-428">
+              <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+              <folding>
+                <marker date="1554883041064" expanded="false" signature="6:180" ph="..." />
+                <marker date="1554883041064" expanded="true" signature="220:2268" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="299:2266" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="381:433" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="595:716" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="784:907" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="964:1206" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="1061:1119" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="1264:1510" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="1349:1407" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="1562:1640" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="1691:1958" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="1717:1803" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="1893:1948" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="2008:2095" ph="{...}" />
+                <marker date="1554883041064" expanded="true" signature="2147:2260" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/interfaces/ISubCategoryRepositiry.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <marker date="1555083215072" expanded="false" signature="6:211" ph="..." />
+                <marker date="1555083215072" expanded="true" signature="254:1085" ph="{...}" />
+                <marker date="1555083215072" expanded="true" signature="328:1083" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/SubCategoryRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <marker date="1555011344201" expanded="false" signature="6:340" ph="..." />
+                <marker date="1555011344201" expanded="true" signature="372:4523" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="464:4521" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="545:565" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="632:726" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="846:1132" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="949:1095" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="1222:1457" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="1606:2382" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="1856:2346" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="2448:2589" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="2714:3415" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="2752:2809" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="2954:3011" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="3251:3378" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="3503:3806" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="3881:4364" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="3919:3976" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="4122:4179" ph="{...}" />
+                <marker date="1555011344201" expanded="true" signature="4443:4515" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/CategoryRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding>
+                <marker date="1554921858015" expanded="false" signature="6:279" ph="..." />
+                <marker date="1554921858015" expanded="true" signature="311:1662" ph="{...}" />
+                <marker date="1554921858015" expanded="true" signature="394:1660" ph="{...}" />
+                <marker date="1554921858015" expanded="true" signature="472:492" ph="{...}" />
+                <marker date="1554921858015" expanded="true" signature="552:621" ph="{...}" />
+                <marker date="1554921858015" expanded="true" signature="688:828" ph="{...}" />
+                <marker date="1554921858015" expanded="true" signature="895:1270" ph="{...}" />
+                <marker date="1554921858015" expanded="true" signature="933:990" ph="{...}" />
+                <marker date="1554921858015" expanded="true" signature="1076:1133" ph="{...}" />
+                <marker date="1554921858015" expanded="true" signature="1341:1513" ph="{...}" />
+                <marker date="1554921858015" expanded="true" signature="1582:1654" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/CouponRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="14" column="74" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="74" />
+              <folding>
+                <marker date="1555143846412" expanded="false" signature="6:307" ph="..." />
+                <marker date="1555143846412" expanded="true" signature="339:2615" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="416:2613" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="492:512" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="602:1080" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="644:1023" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="768:973" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="847:955" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="1138:1410" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="1176:1233" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="1315:1372" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="1498:2266" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="1595:1975" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="1719:1924" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="1798:1906" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="2326:2398" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="2458:2607" ph="{...}" />
+                <marker date="1555143846412" expanded="true" signature="2496:2553" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/OrderHeaderRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen/Areas/Customer/Controllers/CartController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Models/Utility/SD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Models/Extension/ReflectionExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Models/Extension/IEnumerableExtension.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen/Areas/Identity/Pages/Account/Logout.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Entitie/ShoppingCart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0366DF96-A306-4DFB-8E8E-8F21BCA68142/12/7a8388fc/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Entitie/MenuItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen/Areas/Identity/Pages/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen/Areas/Identity/Pages/Account/Login.cshtml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Entitie/Coupon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen/Areas/Identity/Pages/Account/Register.cshtml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Abstractions/IDbEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Entitie/OrderHeader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2DDBDA9-1E09-414A-801B-36BA566856C2/7e/c33be01a/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Abstractions/DbEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/Generic/DbRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/HomView/HomeIndex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/interfaces/IShoppingCartRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/interfaces/ISubCategoryRepositiry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/interfaces/IOrderHeaderRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Models/OrderDetailsCart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/ManagerUsers/WorkUsers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/ManagerUsers/interfaces/IWorkUsersContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Models/SubCategoryAndCategoryModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen/Areas/Admin/Controllers/CategoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Entitie/AplicUser/ApplicationUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/CouponRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.AppContext/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/CategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/SubCategoryRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/OrderDetailsRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen/Areas/Customer/Views/Cart/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Eczamen.Repositories/ShoppingCartRepository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Eczamen.Entitie/OrderHeader.cs" />
+        <option value="$PROJECT_DIR$/Eczamen.Models/Utility/SD.cs" />
+        <option value="$PROJECT_DIR$/Eczamen/Areas/Customer/Views/Cart/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Eczamen.Repositories/interfaces/IShoppingCartRepository.cs" />
+        <option value="$PROJECT_DIR$/Eczamen.Repositories/ShoppingCartRepository.cs" />
+        <option value="$PROJECT_DIR$/Eczamen/Areas/Customer/Controllers/CartController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.Eczamen/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.Eczamen/.idea/indexLayout.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.Eczamen/.idea/misc.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eczamen.Repositories" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eczamen.Repositories" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Generic" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eczamen.Repositories" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="interfaces" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Areas" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Areas" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Customer" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Areas" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Customer" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Areas" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Customer" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Eczamen" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Areas" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Customer" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Cart" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.Eczamen: IIS Express">
+    <configuration name="Eczamen" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Eczamen/Eczamen.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="Eczamen" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Eczamen: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Eczamen/Eczamen.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="407f52d6-bc56-4077-9f29-bbf68057ed47" name="Default Changelist" comment="" />
+      <created>1560613736905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560613736905</updated>
+      <workItem from="1560613745281" duration="5236000" />
+      <workItem from="1560622405536" duration="716000" />
+      <workItem from="1560623237606" duration="8172000" />
+      <workItem from="1560659090838" duration="6941000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21065000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21768707" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3296" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3296" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.3296" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.3296" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.3296" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32955405" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21768707" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3296" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3296" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.3296" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" weight="0.3296" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.3296" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32955405" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Eczamen/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-757">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen/Areas/Admin/Controllers/CategoryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-983">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <marker date="1555189808116" expanded="false" signature="6:356" ph="..." />
+            <marker date="1555189808116" expanded="true" signature="399:3196" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="510:3194" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="658:738" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="788:877" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="945:992" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="1134:1459" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="1180:1413" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="1267:1342" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="1533:1761" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="1655:1718" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="1901:2222" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="1947:2179" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="2033:2108" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="2298:2526" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="2420:2483" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="2668:2883" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="2757:2820" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="2960:3188" ph="{...}" />
+            <marker date="1555189808116" expanded="true" signature="3082:3145" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen/Areas/Identity/Pages/Account/Manage/_Layout.cshtml" />
+    <entry file="file://$PROJECT_DIR$/Eczamen/Areas/Identity/Pages/Account/Login.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-885">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding>
+            <marker date="1555305998479" expanded="false" signature="6:554" ph="..." />
+            <marker date="1555305998479" expanded="true" signature="602:4191" ph="{...}" />
+            <marker date="1555305998479" expanded="true" signature="665:4189" ph="{...}" />
+            <marker date="1555305998479" expanded="true" signature="1098:1290" ph="{...}" />
+            <marker date="1555305998479" expanded="true" signature="1582:1908" ph="{...}" />
+            <marker date="1555305998479" expanded="true" signature="1971:2499" ph="{...}" />
+            <marker date="1555305998479" expanded="true" signature="2034:2132" ph="{...}" />
+            <marker date="1555305998479" expanded="true" signature="2578:4183" ph="{...}" />
+            <marker date="1555305998479" expanded="true" signature="2681:4077" ph="{...}" />
+            <marker date="1555305998479" expanded="true" signature="2712:2874" ph="/* This doesn't count login failures towards account lockout ... */" />
+            <marker date="1555305998479" expanded="true" signature="3054:3480" ph="{...}" />
+            <marker date="1555305998479" expanded="true" signature="3526:3685" ph="{...}" />
+            <marker date="1555305998479" expanded="true" signature="3725:3885" ph="{...}" />
+            <marker date="1555305998479" expanded="true" signature="3906:4063" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen/Areas/Identity/Pages/Account/Logout.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="63" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="63" />
+          <folding>
+            <marker date="1555278077864" expanded="false" signature="6:349" ph="..." />
+            <marker date="1555278077864" expanded="true" signature="397:1316" ph="{...}" />
+            <marker date="1555278077864" expanded="true" signature="461:1314" ph="{...}" />
+            <marker date="1555278077864" expanded="true" signature="691:785" ph="{...}" />
+            <marker date="1555278077864" expanded="true" signature="814:834" ph="{...}" />
+            <marker date="1555278077864" expanded="true" signature="908:1308" ph="{...}" />
+            <marker date="1555278077864" expanded="true" signature="1127:1204" ph="{...}" />
+            <marker date="1555278077864" expanded="true" signature="1221:1298" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Abstractions/DbEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <marker date="1554827726119" expanded="false" signature="6:163" ph="..." />
+            <marker date="1554827726119" expanded="true" signature="195:361" ph="{...}" />
+            <marker date="1554827726119" expanded="true" signature="235:359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Abstractions/IDbEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <marker date="1554827679867" expanded="false" signature="6:111" ph="..." />
+            <marker date="1554827679867" expanded="true" signature="143:233" ph="{...}" />
+            <marker date="1554827679867" expanded="true" signature="176:231" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/ManagerUsers/interfaces/IWorkUsersContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <marker date="1555306068262" expanded="false" signature="6:185" ph="..." />
+            <marker date="1555306068262" expanded="true" signature="241:502" ph="{...}" />
+            <marker date="1555306068262" expanded="true" signature="282:500" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/ManagerUsers/WorkUsers.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <marker date="1555305953069" expanded="true" signature="338:1814" ph="{...}" />
+            <marker date="1555305953069" expanded="true" signature="386:1812" ph="{...}" />
+            <marker date="1555305953069" expanded="true" signature="478:520" ph="{...}" />
+            <marker date="1555305953069" expanded="true" signature="595:697" ph="{...}" />
+            <marker date="1555305953069" expanded="true" signature="750:1167" ph="{...}" />
+            <marker date="1555305953069" expanded="true" signature="788:846" ph="{...}" />
+            <marker date="1555305953069" expanded="true" signature="976:1034" ph="{...}" />
+            <marker date="1555305953069" expanded="true" signature="1222:1624" ph="{...}" />
+            <marker date="1555305953069" expanded="true" signature="1260:1318" ph="{...}" />
+            <marker date="1555305953069" expanded="true" signature="1448:1506" ph="{...}" />
+            <marker date="1555305953069" expanded="true" signature="1699:1806" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Entitie/AplicUser/ApplicationUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <marker date="1555173472142" expanded="true" signature="168:498" ph="{...}" />
+            <marker date="1555173472142" expanded="true" signature="217:496" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Models/Extension/ReflectionExtension.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <marker date="1554970068754" expanded="true" signature="102:358" ph="{...}" />
+            <marker date="1554970068754" expanded="true" signature="148:356" ph="{...}" />
+            <marker date="1554970068754" expanded="true" signature="237:350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen/Eczamen.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen/Areas/Identity/Pages/Account/Register.cshtml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+          <folding>
+            <marker date="1555351659588" expanded="true" signature="505:6886" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="571:6884" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="1154:1368" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="1518:2564" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="2616:2671" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="2750:6878" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="2940:6772" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="3018:3401" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="3523:6590" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="3618:3969" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="3810:3947" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="4050:4188" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="4267:4403" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="4480:4614" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="4663:4788" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="4813:5680" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="4889:5028" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="5057:5658" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="5139:5288" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="5321:5632" ph="{...}" />
+            <marker date="1555351659588" expanded="true" signature="5958:6529" ph="/* var code = await _userManager.GenerateEmailConfirmationTokenAsync(user); ... */" />
+            <marker date="1555351659588" expanded="true" signature="6643:6758" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen/Areas/Identity/Pages/Account/Register.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="20" />
+          <folding>
+            <marker date="1555182490860" expanded="true" signature="57:97" ph="@..." />
+            <marker date="1555182490860" expanded="true" signature="3846:4410" ph="@..." />
+            <marker date="1555182490860" expanded="true" signature="3881:4410" ph="{...}" />
+            <marker date="1555182490860" expanded="true" signature="4635:4704" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Entitie/Eczamen.Entitie.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.AppContext/Eczamen.AppContext.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Abstractions/Eczamen.Abstractions.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Models/Eczamen.Models.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Models/Extension/IEnumerableExtension.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <marker date="1554973406754" expanded="false" signature="6:169" ph="..." />
+            <marker date="1554973406754" expanded="true" signature="205:731" ph="{...}" />
+            <marker date="1554973406754" expanded="true" signature="252:729" ph="{...}" />
+            <marker date="1554973406754" expanded="true" signature="373:723" ph="{...}" />
+            <marker date="1554973406754" expanded="true" signature="478:712" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Models/SubCategoryAndCategoryModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1555007465028" expanded="false" signature="6:163" ph="..." />
+            <marker date="1555007465028" expanded="true" signature="189:1502" ph="{...}" />
+            <marker date="1555007465028" expanded="true" signature="236:1500" ph="{...}" />
+            <marker date="1555007465028" expanded="true" signature="503:1494" ph="{...}" />
+            <marker date="1555007465028" expanded="true" signature="633:1201" ph="{...}" />
+            <marker date="1555007465028" expanded="true" signature="700:1187" ph="{...}" />
+            <marker date="1555007465028" expanded="true" signature="792:967" ph="{...}" />
+            <marker date="1555007465028" expanded="true" signature="992:1168" ph="{...}" />
+            <marker date="1555007465028" expanded="true" signature="1218:1445" ph="{...}" />
+            <marker date="1555007465028" expanded="true" signature="1285:1431" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/HomView/HomeIndex.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <marker date="1555173307204" expanded="false" signature="6:290" ph="..." />
+            <marker date="1555173307204" expanded="true" signature="330:1010" ph="{...}" />
+            <marker date="1555173307204" expanded="true" signature="371:1008" ph="{...}" />
+            <marker date="1555173307204" expanded="true" signature="565:1002" ph="{...}" />
+            <marker date="1555173307204" expanded="true" signature="642:965" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/Eczamen.Repositories.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2DDBDA9-1E09-414A-801B-36BA566856C2/7e/c33be01a/ExecutionContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="143" column="6" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Entitie/MenuItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1555100452826" expanded="false" signature="6:191" ph="..." />
+            <marker date="1555100452826" expanded="true" signature="218:796" ph="{...}" />
+            <marker date="1555100452826" expanded="true" signature="256:794" ph="{...}" />
+            <marker date="1555100452826" expanded="true" signature="443:558" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Entitie/ShoppingCart.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <marker date="1555254439663" expanded="false" signature="6:224" ph="..." />
+            <marker date="1555254439663" expanded="true" signature="251:859" ph="{...}" />
+            <marker date="1555254439663" expanded="true" signature="293:857" ph="{...}" />
+            <marker date="1555254439663" expanded="true" signature="329:372" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Entitie/OrderHeader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding>
+            <marker date="1555317156861" expanded="false" signature="6:224" ph="..." />
+            <marker date="1555317156861" expanded="true" signature="251:1480" ph="{...}" />
+            <marker date="1555317156861" expanded="true" signature="292:1478" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Models/OrderDetailsCart.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <marker date="1555319073755" expanded="false" signature="6:89" ph="..." />
+            <marker date="1555319073755" expanded="true" signature="115:280" ph="{...}" />
+            <marker date="1555319073755" expanded="true" signature="151:278" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/OrderHeaderRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1555340315830" expanded="false" signature="6:227" ph="..." />
+            <marker date="1555340315830" expanded="true" signature="259:460" ph="{...}" />
+            <marker date="1555340315830" expanded="true" signature="351:458" ph="{...}" />
+            <marker date="1555340315830" expanded="true" signature="432:452" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/OrderDetailsRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <marker date="1555340458261" expanded="false" signature="6:227" ph="..." />
+            <marker date="1555340458261" expanded="true" signature="259:464" ph="{...}" />
+            <marker date="1555340458261" expanded="true" signature="354:462" ph="{...}" />
+            <marker date="1555340458261" expanded="true" signature="436:456" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Entitie/Coupon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding>
+            <marker date="1555130999051" expanded="false" signature="6:139" ph="..." />
+            <marker date="1555130999051" expanded="true" signature="166:628" ph="{...}" />
+            <marker date="1555130999051" expanded="true" signature="202:626" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Models/Utility/SD.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+          <folding>
+            <marker date="1560630021318" expanded="true" signature="6:89" ph="..." />
+            <marker date="1560630021318" expanded="true" signature="123:2462" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="152:2460" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="633:1353" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="813:1290" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="897:998" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="1030:1132" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="1161:1276" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="1447:2453" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="1495:1566" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="1583:2403" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="1666:1749" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="1770:2389" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="1889:2023" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="2048:2371" ph="{...}" />
+            <marker date="1560630021318" expanded="true" signature="2176:2349" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/interfaces/IOrderHeaderRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <marker date="1555340233102" expanded="false" signature="6:117" ph="..." />
+            <marker date="1555340233102" expanded="true" signature="160:247" ph="{...}" />
+            <marker date="1555340233102" expanded="true" signature="233:245" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.AppContext/AppDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <folding>
+            <marker date="1555317919823" expanded="false" signature="6:216" ph="..." />
+            <marker date="1555317919823" expanded="true" signature="246:889" ph="{...}" />
+            <marker date="1555317919823" expanded="true" signature="298:887" ph="{...}" />
+            <marker date="1555317919823" expanded="true" signature="400:421" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/interfaces/ISubCategoryRepositiry.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <marker date="1555083215072" expanded="false" signature="6:211" ph="..." />
+            <marker date="1555083215072" expanded="true" signature="254:1085" ph="{...}" />
+            <marker date="1555083215072" expanded="true" signature="328:1083" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/SubCategoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <marker date="1555011344201" expanded="false" signature="6:340" ph="..." />
+            <marker date="1555011344201" expanded="true" signature="372:4523" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="464:4521" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="545:565" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="632:726" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="846:1132" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="949:1095" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="1222:1457" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="1606:2382" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="1856:2346" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="2448:2589" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="2714:3415" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="2752:2809" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="2954:3011" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="3251:3378" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="3503:3806" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="3881:4364" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="3919:3976" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="4122:4179" ph="{...}" />
+            <marker date="1555011344201" expanded="true" signature="4443:4515" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/CategoryRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <marker date="1554921858015" expanded="false" signature="6:279" ph="..." />
+            <marker date="1554921858015" expanded="true" signature="311:1662" ph="{...}" />
+            <marker date="1554921858015" expanded="true" signature="394:1660" ph="{...}" />
+            <marker date="1554921858015" expanded="true" signature="472:492" ph="{...}" />
+            <marker date="1554921858015" expanded="true" signature="552:621" ph="{...}" />
+            <marker date="1554921858015" expanded="true" signature="688:828" ph="{...}" />
+            <marker date="1554921858015" expanded="true" signature="895:1270" ph="{...}" />
+            <marker date="1554921858015" expanded="true" signature="933:990" ph="{...}" />
+            <marker date="1554921858015" expanded="true" signature="1076:1133" ph="{...}" />
+            <marker date="1554921858015" expanded="true" signature="1341:1513" ph="{...}" />
+            <marker date="1554921858015" expanded="true" signature="1582:1654" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/CouponRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="14" column="74" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="74" />
+          <folding>
+            <marker date="1555143846412" expanded="false" signature="6:307" ph="..." />
+            <marker date="1555143846412" expanded="true" signature="339:2615" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="416:2613" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="492:512" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="602:1080" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="644:1023" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="768:973" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="847:955" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="1138:1410" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="1176:1233" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="1315:1372" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="1498:2266" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="1595:1975" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="1719:1924" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="1798:1906" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="2326:2398" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="2458:2607" ph="{...}" />
+            <marker date="1555143846412" expanded="true" signature="2496:2553" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0366DF96-A306-4DFB-8E8E-8F21BCA68142/12/7a8388fc/ActionMethodExecutor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/interfaces/IShoppingCartRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
+          <folding>
+            <marker date="1560666841652" expanded="false" signature="6:199" ph="..." />
+            <marker date="1560666841652" expanded="true" signature="242:937" ph="{...}" />
+            <marker date="1560666841652" expanded="true" signature="318:935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/Generic/DbRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-428">
+          <caret line="19" column="59" lean-forward="true" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding>
+            <marker date="1554883041064" expanded="false" signature="6:180" ph="..." />
+            <marker date="1554883041064" expanded="true" signature="220:2268" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="299:2266" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="381:433" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="595:716" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="784:907" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="964:1206" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="1061:1119" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="1264:1510" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="1349:1407" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="1562:1640" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="1691:1958" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="1717:1803" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="1893:1948" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="2008:2095" ph="{...}" />
+            <marker date="1554883041064" expanded="true" signature="2147:2260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen.Repositories/ShoppingCartRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="114" column="48" lean-forward="true" selection-start-line="114" selection-start-column="48" selection-end-line="114" selection-end-column="48" />
+          <folding>
+            <marker date="1560666841739" expanded="true" signature="6:381" ph="..." />
+            <marker date="1560666841739" expanded="true" signature="413:4646" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="508:4644" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="590:610" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="724:1292" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="762:819" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="1028:1085" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="1155:1248" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="1381:1888" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="1652:1729" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="1746:1878" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="1949:2053" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="2133:2240" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="2409:3849" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="2490:2627" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="2732:3296" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="3138:3282" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="3408:3813" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="3913:4091" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="4156:4334" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="4400:4638" ph="{...}" />
+            <marker date="1560666841739" expanded="true" signature="4520:4578" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen/Areas/Customer/Controllers/CartController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="105" column="70" lean-forward="true" selection-start-line="105" selection-start-column="70" selection-end-line="105" selection-end-column="70" />
+          <folding>
+            <marker date="1560666841808" expanded="false" signature="6:361" ph="..." />
+            <marker date="1560666841808" expanded="true" signature="407:4392" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="493:4390" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="1200:1514" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="1564:1916" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="1950:2102" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="2144:2476" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="2219:2314" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="2521:2656" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="2715:2927" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="2801:2864" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="2986:3806" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="3134:3530" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="3547:3731" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="3642:3717" ph="{...}" />
+            <marker date="1560666841808" expanded="true" signature="3866:4384" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Eczamen/Areas/Customer/Views/Cart/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="55" column="38" lean-forward="true" selection-start-line="55" selection-start-column="38" selection-end-line="55" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#button#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#form#0;n#!!top" expanded="true" />
+            <marker date="1560664034086" expanded="true" signature="39:122" ph="@..." />
+            <marker date="1560664034086" expanded="true" signature="149:5751" ph="@..." />
+            <marker date="1560664034086" expanded="true" signature="184:5641" ph="{...}" />
+            <marker date="1560664034086" expanded="true" signature="1013:3449" ph="@..." />
+            <marker date="1560664034086" expanded="true" signature="1055:3449" ph="{...}" />
+            <marker date="1560664034086" expanded="true" signature="5650:5751" ph="{...}" />
+            <marker date="1560664034086" expanded="true" signature="5761:6267" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

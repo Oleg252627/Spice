@@ -1,0 +1,51 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "E:\\git\\Spice\\Eczamen\\Eczamen.Models\\Eczamen.Models.csproj",
+    "projectName": "Eczamen.Models",
+    "projectPath": "E:\\git\\Spice\\Eczamen\\Eczamen.Models\\Eczamen.Models.csproj",
+    "outputPath": "E:\\git\\Spice\\Eczamen\\Eczamen.Models\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "E:\\git\\Spice\\Eczamen\\Eczamen.Entitie\\Eczamen.Entitie.csproj": {
+            "projectPath": "E:\\git\\Spice\\Eczamen\\Eczamen.Entitie\\Eczamen.Entitie.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

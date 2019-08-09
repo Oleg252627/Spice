@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Eczamen.Entitie;
 
 namespace Eczamen.Models.Utility
 {
@@ -15,6 +16,7 @@ namespace Eczamen.Models.Utility
         public const string CustomerEndUser = "Customer";
 
         public const string ssShoppingCartCount = "ssCartCount";
+        public const string ssCuponCode = "ssCuponCode";
 
 
 
@@ -45,6 +47,37 @@ namespace Eczamen.Models.Utility
                 }
             }
             return new string(array, 0, arrayIndex);
+        }
+
+        public static double DiscountedPrice(Coupon couponFromDb, double originalOrderTotal)
+        {
+            if (couponFromDb == null)
+            {
+                return originalOrderTotal;
+            }
+            else
+            {
+                if (couponFromDb.MinimumAmount > originalOrderTotal)
+                {
+                    return originalOrderTotal;
+                }
+                else
+                {
+                    if (Convert.ToInt32(couponFromDb.CouponType) == (int) Coupon.ECouponType.Dollar)
+                    {
+                        return Math.Round(originalOrderTotal - couponFromDb.Discount, 2);
+                    }
+                    else
+                    {
+                        if (Convert.ToInt32(couponFromDb.CouponType) == (int) Coupon.ECouponType.Percent)
+                        {
+                            return Math.Round(originalOrderTotal - (originalOrderTotal * couponFromDb.Discount/100), 2);
+                        }
+                    }
+                }
+            }
+
+            return originalOrderTotal;
         }
 
     }

@@ -182,7 +182,6 @@ E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\
 E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ResetAuthenticator.g.cshtml.cs
 E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.g.cshtml.cs
 E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\TwoFactorAuthentication.g.cshtml.cs
-E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_Layout.g.cshtml.cs
 E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.g.cshtml.cs
 E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_StatusMessage.g.cshtml.cs
 E:\git\Spice\Eczamen\Eczamen\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs

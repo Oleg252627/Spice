@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
@@ -67,7 +68,8 @@ namespace Eczamen.Repositories
             return await AllItems.Where(z => z.ApplicationUserId == id).ToListAsync();
         }
 
-        public async Task<OrderDetailsCart> GetOrderDetailsCart(Claim claim, IMenuItemRepository menuItem)
+        public async Task<OrderDetailsCart> GetOrderDetailsCart(Claim claim, IMenuItemRepository menuItem, string code,
+            ICouponRepository couponRepository)
         {
             OrderDetailsCart order = new OrderDetailsCart
             {
@@ -88,8 +90,39 @@ namespace Eczamen.Repositories
             }
 
             order.OrderHeader.OrderTotalOriginal = order.OrderHeader.OrderTotal;
-            
+            if (code != null)
+            {
+                order.OrderHeader.CouponCode = code;
+                var couponFromDb =
+                    await couponRepository.AllItems.Where(z =>
+                        z.Name.ToLower() == order.OrderHeader.CouponCode.ToLower()).FirstOrDefaultAsync();
+                order.OrderHeader.OrderTotal = SD.DiscountedPrice(couponFromDb, order.OrderHeader.OrderTotalOriginal);
+            }
             return order;
+        }
+
+        public async Task<bool> PlusCartRepository(int cartId)
+        {
+            var cart = await AllItems.FirstOrDefaultAsync(z => z.Id == cartId);
+            cart.Count += 1;
+            return await SaveChangesAsync() > 0;
+        }
+
+        public async Task<bool> MinusCartRepository(int cartId)
+        {
+            var cart = await AllItems.FirstOrDefaultAsync(z => z.Id == cartId);
+            cart.Count -= 1;
+            return await SaveChangesAsync() > 0;
+        }
+
+        public async Task<bool> DeleteCartRepository(int cartId)
+        {
+            var cart = await AllItems.FirstOrDefaultAsync(z => z.Id == cartId);
+            if (cart == null)
+            {
+                return false;
+            }
+            return await DeleteItemAsync(cartId);
         }
     }
 }
